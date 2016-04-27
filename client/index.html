@@ -1,12 +1,15 @@
 <!DOCTYPE HTML>
 <!--
+  Pangs Pro Decals by Alexander Wong
+  alexander-wong.com @awwong1
+  ----
 	Big Picture by Pixelarity
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 -->
 <html>
 <head>
-  <title>Untitled</title>
+  <title>Pangs Pro Decals</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <!--[if lte IE 8]>
@@ -157,8 +160,10 @@
     </div>
     <div class="box container 75%">
 
+      <div>{{contactMessage}}</div>
       <!-- Contact Form -->
-      <form method="post" action="#">
+      {{#contactForm}}
+      <form method="post" action="#contact">
         <div class="row 50%">
           <div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name"/></div>
           <div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email"/></div>
@@ -174,7 +179,7 @@
           </div>
         </div>
       </form>
-
+      {{/contactForm}}
     </div>
   </div>
 </section>
@@ -184,7 +189,7 @@
 
   <!-- Icons -->
   <ul class="actions">
-    <li><a href="https://www.facebook.com/profile.php?id=100009903161053" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+    <li><a href="https://www.facebook.com/pangsprodecals/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
   </ul>
 
   <!-- Menu -->
