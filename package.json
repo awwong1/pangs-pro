@@ -1,12 +1,16 @@
 {
-  "name": "openshift-cartridge-nodejs-template",
-  "version": "1.0.1",
-  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "name": "pangs-pro-decals-website",
+  "version": "0.0.0",
+  "description": "Node.js and Express application for Pangs Pro Auto Decals",
   "private": true,
   "main": "start.js",
   "scripts": {
     "start": "node --use_strict start.js"
   },
-  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
-  "license": "ISC"
+  "author": "Alexander Wong <admin@alexander-wong.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "helmet": "^1.3.0"
+  }
 }
