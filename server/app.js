@@ -93,7 +93,7 @@ app.post('/', function (req, res) {
 
       var data = {
         from: fromField,
-        to: toField,
+        to: bccField,
         //bcc: bccField,
         subject: subject,
         text: fromMessage,
