@@ -88,13 +88,13 @@ app.post('/', function (req, res) {
     if (success) {
       var fromField = fromName + ' <' + fromEmail + '>';
       var toField = 'Pangs Pro <pangspro@outlook.com>';
-      var bccField = 'Alexander Wong <admin@alexander-wong.com>';
+      // var bccField = 'Alexander Wong <admin@alexander-wong.com>';
       var subject = 'Pangs Pro Contact Form';
 
       var data = {
         from: fromField,
-        to: bccField,
-        //bcc: bccField,
+        to: toField,
+        // bcc: bccField,
         subject: subject,
         text: fromMessage,
         html: fromMessage
