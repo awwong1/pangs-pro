@@ -8,6 +8,18 @@ Photos have been taken from Unsplash, extending off their Creative Commons Zero 
 * [Openshift Hosted URL](https://website-pangspro.rhcloud.com)
 * [Live Url](https://www.pangspro.com/)
 
+## Environment Variables
+
+| Environment Variable      | Value        | Description       |
+|---------------------------|--------------|-------------------|
+| `NODE_ENV`                | `production` | node environment  |
+| `NODE_CLUSTER_WORKERS`    | `4`          | # cluster workers |
+| `MAILGUN_API_KEY`         | `key`        | mailgun api key   |
+| `MAILGUN_DOMAIN`          | `domain`     | mailgun domain    |
+| `GOOGLE_RECAPTCHA_SECRET` | `secret`     | recaptcha secret  |
+| `NODE_PORT`               | `8080`       | node app port     |
+| `NODE_IP`                 | `0.0.0.0`    | node app ip       |
+
 ## License
 
 The MIT License (MIT)
