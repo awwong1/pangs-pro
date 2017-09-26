@@ -1,11 +1,11 @@
 # pangs-pro
-Client requested website for pangspro.com. Written in Node.js running express with Mailgun integration. Writen specifically for deployment on OpenShift's PaaS.
+Client requested website for pangspro.com. Written in Node.js running express with Mailgun integration. Writen specifically for deployment on OpenShift's PaaS v3.
 
 A custom static website. Based off of Pixelarity's Big Picture template. Uses Pixelarity's license from client purchase.
 
 Photos have been taken from Unsplash, extending off their Creative Commons Zero License.
 
-* [Openshift Hosted URL](https://website-pangspro.rhcloud.com)
+* [Openshift Hosted URL](http://pangs-pro-decals-pangspro.193b.starter-ca-central-1.openshiftapps.com/)
 * [Live Url](https://www.pangspro.com/)
 
 ## Environment Variables
