@@ -1,4 +1,6 @@
 # pangs-pro
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/awwong1/pangs-pro.svg)](https://greenkeeper.io/)
 Client requested website for pangspro.com. Written in Node.js running express with Mailgun integration. Writen specifically for deployment on OpenShift's PaaS v3.
 
 A custom static website. Based off of Pixelarity's Big Picture template. Uses Pixelarity's license from client purchase.
