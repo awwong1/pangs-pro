@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
+.thumbnail-crop {
+	width: 360px;
+	height: 225px;
+	object-fit: fill;
+}
+
 /*
 	Big Picture by Pixelarity
 	pixelarity.com @pixelarity
