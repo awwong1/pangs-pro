@@ -5,7 +5,7 @@ A custom static website. Based off of Pixelarity's Big Picture template. Uses Pi
 
 Photos have been taken from Unsplash, extending off their Creative Commons Zero License.
 
-* [Openshift Hosted URL](http://pangs-pro-decals-pangspro.193b.starter-ca-central-1.openshiftapps.com/)
+* [Heroku Hosted URL](https://pangsprodecals.herokuapp.com/ )
 * [Live Url](https://www.pangspro.com/)
 
 ## Environment Variables

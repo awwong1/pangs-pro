@@ -1,1 +1,1 @@
-web: node --inspect=5858 start.js
+web: node start.js
