@@ -3474,4 +3474,8 @@
 				opacity: 0.65;
 			}
 
-	}
+  }
+
+h4 {
+  text-decoration: underline;
+}
